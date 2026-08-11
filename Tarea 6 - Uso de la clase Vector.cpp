@@ -49,7 +49,7 @@ int main() {
     }
 
 
-    float suma = 0.0f;
+    float suma = 0.0;
     for (Producto p : inventario) {
         suma += p.precio;
     }
